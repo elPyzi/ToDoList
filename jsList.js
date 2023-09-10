@@ -1,0 +1,3 @@
+function AddClick(){
+    alert("Добавлено")
+}

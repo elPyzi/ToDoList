@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to top left, rgb(68, 205, 236), rgb(230, 90, 90));
+}
+
+header {
+    margin: 7% 0 2% 0;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header h1 {
+    border: thick solid white;
+    border-width: 0 0 5px 0;
+    width: 25vw;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box_task {
+    margin: auto;
+    width: 29vw;
+    height: 50vh;
+    max-height: 55vh;
+    background-color: white;
+    border-radius: 3%;
+    box-shadow: 0 15px 30px rgb(117, 116, 116);
+}
+
+.do_task {
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.do_task .write_task {
+    margin-right: 5%;
+    height: 45px;
+    width: 65%;
+    border-radius: 5px;
+    border: 2px solid rgb(230, 90, 90);
+    padding: 3%;
+    box-shadow: 0px 5px 7px rgb(117, 116, 116);
+}
+
+.do_task .write_task:focus {
+    outline: none;
+    border: 2px solid rgb(230, 90, 90);
+}
+
+.do_task button {
+    height: 45px;
+    width: 15%;
+    border-radius: 5px;
+    border: 0px solid #bbbbbb;
+    background-color: rgb(230, 90, 90);
+    color: white;
+    font-weight: 500;
+    box-shadow: 0px 5px 7px rgb(117, 116, 116);
+}
+
+.do_task button:active {
+    transform: scale(0.98);
+    box-shadow: 0px 5px 7px rgb(117, 116, 116);
+}
+
+
+.list_task {
+    margin-top: 5%;
+    /* border:thick solid red;
+    border-width: 2px 0 0 0; */
+
+}
+
+.list_task ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list_task li {
+    text-align:start;
+    padding: 1% 2%;
+    background-color: rgb(234, 229, 223);
+    margin-bottom:2%;
+    width: 90%;
+    height: 35px;
+    border-radius: 5px;
+}
