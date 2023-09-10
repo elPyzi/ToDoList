@@ -1,4 +1,4 @@
 function AddClick(){
     alert("Добавлено")
 }
-console.log("H")
+console.log("Hello")
